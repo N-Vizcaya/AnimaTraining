@@ -1,0 +1,214 @@
+html,
+
+* { 
+margin: 0; 
+padding: 0; 
+
+}
+
+
+h1 {
+font-weight: 700;
+text-align: center;
+color: black;
+padding: 10px;
+
+}
+
+h2 {
+color: black;
+text-align: center;
+}
+
+h3 {
+text-align: center;
+
+}
+
+p {
+text-align: justify;
+margin: 10px;
+font-weight: 400;
+color: black;
+}
+
+
+
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Noto Sans JP', sans-serif;
+background-color: #fafbfd;
+
+
+}
+
+
+.header {
+width: 100%;
+}
+
+.menu a{
+transition-property: all;
+transition-timing-function: ease-in-out;
+transition-duration: 0.5s;
+
+}
+.menu a:hover {
+transform: scale(1.1);
+background-color: #9CAAB6;
+border-radius: 5px;
+}
+
+.logo img {
+
+max-width: 80px;
+transition-property: initial;
+transition-duration: 0.3s;
+transition-timing-function: ease-in-out;
+
+}
+
+.logo:hover {
+transform: scale(1.2);
+
+}
+
+iframe {
+border-radius: 10px;
+}
+
+
+img { 
+
+border-radius: 5px;
+ }
+
+/* index */
+
+
+
+
+
+
+/* fin de index */
+
+
+
+/* nosotros */
+
+.animalogo {
+max-height: 600px;
+
+}
+
+.titulo_nos {
+color: #fafbfd;
+text-align: justify;
+
+
+}
+
+.nos { 
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+text-align: justify;
+color: #fafbfd;
+margin: 15px;
+}
+
+.nos2 {
+font-weight: 400;
+color: #fafbfd;
+text-align: center;
+
+}
+
+/* fin de nosotros */
+
+.redes img {
+margin: 30px;
+
+}
+
+
+
+
+
+/* contacto */
+
+.redes img {
+transition-property: all;
+transition-duration: 0.5s;
+transition-timing-function: ease-in-out;
+
+}
+
+.redes img:hover {
+transform: scale(1.2);
+
+
+}
+
+
+
+
+/* fin de contacto */
+
+
+
+
+/* novedades */
+
+.programas {
+
+margin-top: 50px;
+
+}
+
+
+
+/* fin de novedades */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+background: #8e9eab;
+background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab);
+background: linear-gradient(to top, #eef2f3, #8e9eab);
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+li {
+list-style: none;
+display: block;
+flex-grow: 0;
+padding: 5px; 
+}
+
+
+
+
+
+
+
+
+		
+
+
+		
