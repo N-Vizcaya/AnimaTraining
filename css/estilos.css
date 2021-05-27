@@ -47,17 +47,16 @@ background-color: #fafbfd;
 
 .header {
 width: 100%;
-background-color: #ed3d3c;
 }
 
 .menu a{
 transition-property: all;
 transition-timing-function: ease-in-out;
-transition-duration: 0.5s;
-color: #ed3d3c !important;
+transition-duration: 0.3s;
+color: #414344 !important;
 }
 .menu a:hover {
-transform: scale(1.2);
+transform: scale(1.1);
 }
 
 .logo img {
@@ -181,7 +180,7 @@ transform: scale(1.2);
 
 .programas {
 
-margin-top: 50px;
+margin-top: 80px;
 
 }
 
