@@ -33,15 +33,11 @@ color: black;
 }
 
 
-
-
 body {
 margin: 0;
 padding: 0;
 font-family: 'Noto Sans JP', sans-serif;
 background-color: white;
-
-
 }
 
 
@@ -60,6 +56,7 @@ transition-timing-function: ease-in-out;
 transition-duration: 0.3s;
 color: #414344 !important;
 }
+
 .menu a:hover {
 transform: scale(1.1);
 }
@@ -118,45 +115,6 @@ height:300px;
 
 
 
-/* nosotros */
-
-.animalogo {
-max-height: 600px;
-
-}
-
-.titulo_nos {
-color: #fafbfd;
-text-align: justify;
-
-
-}
-
-.nos { 
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-text-align: justify;
-color: #fafbfd;
-margin: 15px;
-}
-
-.nos2 {
-font-weight: 400;
-color: #fafbfd;
-text-align: center;
-
-}
-
-/* fin de nosotros */
-
-.redes img {
-margin: 30px;
-
-}
-
-
-
-
 
 /* contacto */
 
@@ -164,7 +122,7 @@ margin: 30px;
 transition-property: all;
 transition-duration: 0.5s;
 transition-timing-function: ease-in-out;
-
+margin: 30px;
 }
 
 .redes img:hover {
@@ -190,16 +148,7 @@ margin-top: 80px;
 }
 
 
-
 /* fin de novedades */
-
-
-
-
-
-
-
-
 
 
 
