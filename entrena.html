@@ -64,6 +64,94 @@
 
 </header>
 
+<!-- Javascript -->
+<script>
+
+alert("antes de continuar, debemos conocer su Indice de Masa Corporal (IMC por sus siglas)")
+
+let  peso = parseInt(prompt("ingrese su peso en kilogramos"))
+let  altura = parseFloat(prompt("ingrese su altura (ej: 1.80, 1.60)"));
+
+function calcular(){
+
+if (peso !== "" || altura !== "") {
+    let imc = peso / (altura * altura);
+    alert("su IMC es de "+ imc.toFixed(1))
+} else {
+  alert("ingrese todos los datos requeridos")
+}
+}
+
+
+
+calcular()
+
+alert ("recuerde que: \nSi su IMC es menor a 18,5: esta por debajo de lo normal \nSi su IMC es menor a 25: es normal \nSi su IMC es mayor a 25: esta por encima de lo normal \nSi su IMC es mayor a 30: es considerado obesidad.")
+
+class usuarios {
+    constructor(propiedad) {
+        this.nombreCompleto = propiedad.nombreCompleto;
+        this.edad = propiedad.edad;
+        this.altura = propiedad.altura;
+        this.peso = propiedad.peso
+        this.imc = propiedad.imc;
+        this.fechaDeInicio = propiedad.fechaDeInicio;
+    }
+        decimeTuEdad (){ 
+        
+        console.log(this.edad) 
+        }
+
+        decimeTuImc (){
+         console.log ("la imc es "+ this.imc);
+        
+        }
+
+};
+
+
+
+const lucia = new usuarios ({
+    nombreCompleto: "Lucia Ramirez",
+    edad: 30,
+    altura: 1.65,
+    peso: 70,
+    imc: 25.7,
+    fechaDeInicio: "18/01/2021"
+
+})
+
+const ezequiel = new usuarios({
+    nombreCompleto: "Ezequiel Vazquez",
+    edad: 23,
+    altura: 1.80,
+    peso: 81,
+    imc: 25,
+    fechaDeInicio: "23/03/2021"
+   
+})
+
+const sol = new usuarios ({
+    nombreCompleto: "Sol Martinez",
+    edad: 23,
+    altura: 1.70,
+    peso: 77,
+    imc: 26.6,
+    fechaDeInicio: "11/02/2021"
+
+
+})
+
+
+ezequiel.decimeTuEdad();
+
+ezequiel.decimeTuImc();
+
+
+
+
+</script>
+
 <!-- Slider -->
 <div class="slider">
 
